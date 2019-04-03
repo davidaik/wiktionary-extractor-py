@@ -21,7 +21,7 @@ def printMessage(message):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Extract english pages from Wiktionary xml dump'
+        description='Extract data from Wiktionary xml dump'
     )
     parser.add_argument(
         'file',
